@@ -5,18 +5,13 @@
 
 .navbar{
 	border-radius: 0px;
-	background-color: red;
+	background-color: #E5B76B;
 }
 
 .navbar-brand{
   font-size: 35px;
   color: white;
   padding-left: 25px;
-  background-color: grey;
-}
-
-.navbar-brand:hover{
-	color: white;
 }
 
 .nav{
@@ -27,12 +22,12 @@
 .navbar-nav{
   font-size: 18px;
   text-align: center;
-  margin: 0;
+  margin: 0 -15px;
   padding: 0;
 }
 
 .navbar-toggle{
-	border: 2px green;
+	border: 2px;
 	margin-right: 25px;
 }
 
@@ -44,7 +39,7 @@
 .main-title{
   margin-bottom: 15px;
   text-align: center;
-  color: #ff4532;
+  color: #6BD3E5;
   font-size: 35px;
   font-family: sans-serif;
   font-weight: bold;
@@ -52,21 +47,22 @@
 
 li{
 	box-sizing: border-box;
-	width: 100%;
+	width: 90%;
 }
 
 .menu-item{
 	padding: 0;
 	margin: 0;
 	width: 100%;
+	color: #6BD3E5;
 	background-color: white;
 	border-bottom: 1px solid black;
-	color: black;
 	display: block;
+	text-align: center;
 }
 
-.menu-item:hover{
-	background-color:grey;
+.menu-item:hover {
+	background-color:;
 }
 
 .row{
@@ -83,7 +79,15 @@ li{
 }
 
 #beef{
-	background-color: grey;
+	background-color: #C7D8BD;
+}
+
+#chicken{
+	background-color: #D6D8BD;
+}
+
+#sushi{
+	background-color: #BDD4D8;
 }
 
 .item-name{
@@ -93,5 +97,5 @@ li{
 }
 
 #top{
-	font-color: grey;
+	font-color: ;
 }
